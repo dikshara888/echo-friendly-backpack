@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 export default function Home() {
   return (
     <>
@@ -46,9 +45,11 @@ export default function Home() {
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
           {/* Image */}
           <div className="md:w-1/2 mb-6 md:mb-0">
-            <img
+            <Image
               src="/images/2.jpg" // Replace with the correct path to your image
               alt="Backpack"
+              width={100}
+              height={100}                   
               className="w-full rounded-lg shadow-md"
             />
           </div>
@@ -58,12 +59,13 @@ export default function Home() {
               Discover Our Eco-Friendly Backpack
             </h2>
             <p className="text-gray-700 mb-4">
-              Our eco-friendly travel backpack is designed with sustainability
-              in mind. Made from recycled materials, it not only reduces
-              environmental impact but also offers durability and style. With
-              innovative storage solutions and water-resistant features, it's
-              the perfect companion for your adventures.
-            </p>
+  Our eco-friendly travel backpack is designed with sustainability
+  in mind. Made from recycled materials, it not only reduces
+  environmental impact but also offers durability and style. With
+  innovative storage solutions and water-resistant features, it&lsquo;s
+  the perfect companion for your adventures.
+</p>
+
             <a
               href="#"
               className="inline-block bg-blue-500 text-white py-2 px-6 rounded-full font-semibold hover:bg-blue-600"
