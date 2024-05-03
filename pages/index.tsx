@@ -11,7 +11,7 @@ import twos from '/images/2.jpg';
 import onew from '/images/1.jpg';
 import gsix from '/images/g6.jpg';
 import gfive from '/images/g5.jpg';
-// Import all images from the 'images' directory in 'public'
+
 
 
 export default function Home() {
@@ -49,7 +49,7 @@ export default function Home() {
     <p>About Us</p>
       </div>
             <h2 className="text-3xl font-semibold mb-4 text-3xl font-bold tracking-tight sm:text-4xl">Discover Our Eco-Friendly Backpack</h2>
-            <p className="text-gray-700 mb-4">Our eco-friendly travel backpack is designed with sustainability in mind. Made from recycled materials, it not only reduces environmental impact but also offers durability and style. With innovative storage solutions and water-resistant features, it's the perfect companion for your adventures.</p>
+            <p className="text-gray-700 mb-4">Our eco-friendly travel backpack is designed with sustainability in mind. Made from recycled materials, it not only reduces environmental impact but also offers durability and style. With innovative storage solutions and water-resistant features, it&apos;s the perfect companion for your adventures.</p>
         <div className="grid grid-cols-3 gap-4 sm:gap-8 mt-8">
     <div className="border border-black p-4 text-center">
         <h3 className="font-bold text-lg sm:text-3xl">7K+</h3>
@@ -367,7 +367,7 @@ export default function Home() {
             </div>
 
             <div className="mt-4 space-y-6 text-base italic text-gray-600">
-              <p>I've been using this bag for my weekend hiking trips, and it's fantastic. It's spacious enough to carry all my gear, including water bottles, snacks, a first aid kit, and more. The padded straps make it comfortable to wear for long periods, and the rugged construction holds up well to rough terrain. It's become an essential part of my outdoor adventures.</p>
+              <p>I&apos;ve been using this bag for my weekend hiking trips, and it&apos;s fantastic. It&apos;s spacious enough to carry all my gear, including water bottles, snacks, a first aid kit, and more. The padded straps make it comfortable to wear for long periods, and the rugged construction holds up well to rough terrain. It&apos;s become an essential part of my outdoor adventures.</p>
             </div>
           </div>
 		  
@@ -398,7 +398,7 @@ export default function Home() {
             </div>
 
             <div className="mt-4 space-y-6 text-base italic text-gray-600">
-              <p>I purchased this bag for my daily commute, and it's been a game-changer. Not only does it fit my laptop and all my work essentials, but it's also surprisingly stylish. The multiple compartments help me stay organized, and the durability is impressive. Definitely worth the investment.</p>
+              <p>I purchased this bag for my daily commute, and it&apos;s been a game-changer. Not only does it fit my laptop and all my work essentials, but it&apos;s also surprisingly stylish. The multiple compartments help me stay organized, and the durability is impressive. Definitely worth the investment.</p>
             </div>
           </div>
 
