@@ -11,6 +11,14 @@ import twos from '/images/2.jpg';
 import onew from '/images/1.jpg';
 import gsix from '/images/g6.jpg';
 import gfive from '/images/g5.jpg';
+import deeee from '/images/12.webp';
+import sdsd from '/images/7.jpg';
+import logoa from '/images/l1.png';
+import logob from '/images/l2.png';
+import logoc from '/images/l3.png';
+import logod from '/images/l4.png';
+import logoe from '/images/l5.png';
+import clientimg from '/images/client.avif';
 
 
 
@@ -29,10 +37,13 @@ export default function Home() {
     </nav>
 
 
-    <section className="banner h-96 flex items-center text-white"style={{ marginTop: '-87px',  backgroundImage: "url('/images/12.webp')",
-      backgroundSize: "cover",
-      backgroundPosition: "bottom",
-      height: "100vh"  }}>
+    <section className="banner h-96 flex items-center text-white" style={{
+  marginTop: '-87px',
+  backgroundImage: "url(${deeee})", 
+  backgroundSize: "cover",
+  backgroundPosition: "bottom",
+  height: "100vh"
+}}>
         <div className="container mx-auto text-center max-w-800 bg-black bg-opacity-25 p-10 w-full">
              <h1 className="mb-4 text-4xl font-extrabold leading-11 sm:leading-none tracking-tight text-white-900 md:text-5xl lg:text-6xl dark:text-white">Explore the Great Outdoors with  <span className="underline underline-offset-3 decoration-8 decoration-white-400 dark:decoration-blue-600">Our Backpacks</span></h1>
              <p className="text-lg font-normal text-white-500 lg:text-2xl dark:text-white-400">Discover our range of high-quality backpacks for all your adventures.</p>
@@ -97,7 +108,7 @@ export default function Home() {
     </div>
 </section>
 
-  <section className="benbck py-12 relative overflow-hidden" style={{ backgroundImage: "url('/images/7.jpg')", backgroundAttachment: 'fixed', backgroundPosition: 'center', backgroundSize: 'cover', padding: '100px 0px' }}>
+  <section className="benbck py-12 relative overflow-hidden" style={{ backgroundImage: "url(${sdsd})",  backgroundAttachment: 'fixed', backgroundPosition: 'center', backgroundSize: 'cover', padding: '100px 0px' }}>
     <div className="absolute inset-0 bg-black opacity-70"></div>
     <div className="container px-4 md:px-0 mx-auto relative z-10 flex flex-col justify-center items-center text-center">
 	  
@@ -108,15 +119,15 @@ export default function Home() {
 
 <div className="sm:flex grid justify-center sm:gap-4 sm:pb-8 sm:pt-8 items-center py-6 border-b border-b-solid border-gray-300">
     <p className="ml-4 mb-4 text-xl 	sm:mb-0 text-center">As Seen In :</p> 
-    <Image width={100} height={100} src="/images/l1.png" alt="Logo 1" className="w-40 mx-6 my-6" />
+    <Image  src={logoa} alt="Logo 1" className="w-40 mx-6 my-6" />
 
-    <Image width={100} height={100} src="/images/l2.png" alt="Logo 2" className="w-40 mx-6 my-6" />
+    <Image src={logob} alt="Logo 2" className="w-40 mx-6 my-6" />
 
-    <Image width={100} height={100} src="/images/l3.png" alt="Logo 3" className="w-40 mx-6 my-6" />
+    <Image src={logoc} alt="Logo 3" className="w-40 mx-6 my-6" />
 
-    <Image width={100} height={100} src="/images/l4.png" alt="Logo 4" className="w-40 mx-6 my-6" />
+    <Image src={logod}alt="Logo 4" className="w-40 mx-6 my-6" />
 
-    <Image width={100} height={100} src="/images/l5.png" alt="Logo 5" className="w-40 mx-6 my-6" />
+    <Image src={logoe} alt="Logo 5" className="w-40 mx-6 my-6" />
 </div>
 
 
@@ -311,7 +322,7 @@ export default function Home() {
         <div className="-my-12 divide-y divide-gray-200">
           <div className="py-12">
             <div className="flex items-center">
-              <Image width={100} height={100} src="/images/client.avif" alt="Emily Selman." className="h-12 w-12 rounded-full" />
+              <Image  src={clientimg} alt="Emily Selman." className="h-12 w-12 rounded-full" />
               <div className="ml-4">
                 <h4 className="text-sm font-bold text-gray-900">Emily Selman</h4>
                 <div className="mt-1 flex items-center">
@@ -342,9 +353,9 @@ export default function Home() {
 		  
 		   <div className="py-12">
             <div className="flex items-center">
-              <Image width={100} height={100} src="/images/client.avif" alt="Emily Selman." className="h-12 w-12 rounded-full"/>
+              <Image src={clientimg} alt="Emily Selman." className="h-12 w-12 rounded-full"/>
               <div className="ml-4">
-                <h4 className="text-sm font-bold text-gray-900"></h4>
+              <h4 className="text-sm font-bold text-gray-900">Eniya</h4>
                 <div className="mt-1 flex items-center">
                   <svg className="text-yellow-400 h-5 w-5 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401z" clip-rule="evenodd" />
@@ -373,7 +384,7 @@ export default function Home() {
 		  
 		   <div className="py-12">
             <div className="flex items-center">
-              <Image width={100} height={100} src="/images/client.avif" alt="Emily Selman." className="h-12 w-12 rounded-full" />
+              <Image src={clientimg} alt="Emily Selman." className="h-12 w-12 rounded-full" />
               <div className="ml-4">
                 <h4 className="text-sm font-bold text-gray-900">Jessica Nguyen</h4>
                 <div className="mt-1 flex items-center">
