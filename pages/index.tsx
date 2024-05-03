@@ -1,30 +1,17 @@
-import Image from "next/image";
-
-// Function to import all images from a directory
-const importAll = (r) => {
-  let images = {};
-  r.keys().map((item, index) => {
-    images[item.replace('./', '')] = r(item);
-  });
-  return images;
-};
-
+import Image from "next/image";;
+import whiteLogo from '/images/white-logo.png';
+import gw from '/images/g4.jpg';
+import gnine from '/images/g9.jpg';
+import four from '/images/4.jpg';
+import three from '/images/3.jpg';
+import five from '/images/5.jpg';
+import gthree from '/images/g3.jpg';
+import gtwo from '/images/g2.jpg';
+import twos from '/images/2.jpg';
+import onew from '/images/1.jpg';
+import gsix from '/images/g6.jpg';
+import gfive from '/images/g5.jpg';
 // Import all images from the 'images' directory in 'public'
-const images = importAll(require.context('/images', false, /\.(png|jpe?g|svg)$/));
-const whiteLogo = images['white-logo.png'];
-const gw = images['g4.jpg'];
-const gnine = images['g9.jpg'];
-const four = images['4.jpg'];
-const three = images['3.jpg'];
-const five = images['5.jpg'];
-const gthree = images['g3.jpg'];
-const gtwo = images['g2.jpg'];
-const twos = images['2.jpg'];
-const onew = images['1.jpg'];
-const gsix = images['g6.jpg'];
-const gfive = images['g5.jpg'];
-
-
 
 
 export default function Home() {
