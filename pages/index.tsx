@@ -47,7 +47,7 @@ export default function Home() {
       backgroundPosition: "bottom",
       height: "100vh"  }}>
         <div className="container mx-auto text-center max-w-800 bg-black bg-opacity-25 p-10 w-full">
-             <h1 className="mb-4 text-4xl font-extrabold leading-12 sm:leading-none tracking-tight text-white-900 md:text-5xl lg:text-6xl dark:text-white">Explore the Great Outdoors with  <span className="underline underline-offset-3 decoration-8 decoration-white-400 dark:decoration-blue-600">Our Backpacks</span></h1>
+             <h1 className="mb-4 text-4xl font-extrabold leading-11 sm:leading-none tracking-tight text-white-900 md:text-5xl lg:text-6xl dark:text-white">Explore the Great Outdoors with  <span className="underline underline-offset-3 decoration-8 decoration-white-400 dark:decoration-blue-600">Our Backpacks</span></h1>
              <p className="text-lg font-normal text-white-500 lg:text-2xl dark:text-white-400">Discover our range of high-quality backpacks for all your adventures.</p>
         </div>
     </section>
