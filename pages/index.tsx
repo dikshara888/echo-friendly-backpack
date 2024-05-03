@@ -11,8 +11,6 @@ import twos from '/images/2.jpg';
 import onew from '/images/1.jpg';
 import gsix from '/images/g6.jpg';
 import gfive from '/images/g5.jpg';
-import deeee from '/images/12.webp';
-import sdsd from '/images/7.jpg';
 import logoa from '/images/l1.png';
 import logob from '/images/l2.png';
 import logoc from '/images/l3.png';
@@ -39,7 +37,7 @@ export default function Home() {
 
     <section className="banner h-96 flex items-center text-white" style={{
   marginTop: '-87px',
-  backgroundImage: "url(${deeee})", 
+  backgroundImage: 'url("https://homedecor.uniworktechnologies.com/wp-content/uploads/2024/05/12.webp")', 
   backgroundSize: "cover",
   backgroundPosition: "bottom",
   height: "100vh"
@@ -108,7 +106,7 @@ export default function Home() {
     </div>
 </section>
 
-  <section className="benbck py-12 relative overflow-hidden" style={{ backgroundImage: "url(${sdsd})",  backgroundAttachment: 'fixed', backgroundPosition: 'center', backgroundSize: 'cover', padding: '100px 0px' }}>
+  <section className="benbck py-12 relative overflow-hidden" style={{ backgroundImage: 'url("https://homedecor.uniworktechnologies.com/wp-content/uploads/2024/05/7-scaled.jpg")',  backgroundAttachment: 'fixed', backgroundPosition: 'center', backgroundSize: 'cover', padding: '100px 0px' }}>
     <div className="absolute inset-0 bg-black opacity-70"></div>
     <div className="container px-4 md:px-0 mx-auto relative z-10 flex flex-col justify-center items-center text-center">
 	  
